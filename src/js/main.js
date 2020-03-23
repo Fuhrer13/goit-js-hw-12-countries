@@ -1,6 +1,6 @@
 import countryInfoTemplate from '../templates/country-info.hbs';
 import countryListTemplate from '../templates/country-list.hbs';
-import fetchCountries from '../js/fetchCountries';
+import fetchCountries from '../js/fetchCountries.js';
 import debounce from 'lodash.debounce';
 import PNotify from 'pnotify/dist/es/PNotify';
 
